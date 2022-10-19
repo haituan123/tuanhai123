@@ -19,11 +19,11 @@ if food == "Cheese_sausage":
     print("Please choose one more dish: ")
     Food = input()
     if Food == "Instant_noodle":
-      print("Your total bill is: ", Cheese_sausage*Instant_noodle,"$")
+      print("Your total bill is: ", Cheese_sausage+Instant_noodle,"$")
     elif Food == "Spaghetti":
-      print("your total bill is:", Cheese_sausage*Spaghetti, "$")
+      print("your total bill is:", Cheese_sausage+Spaghetti, "$")
     elif Food == "Caviar_shushi":
-      print("your total bill is:", Cheese_sausage*Caviar_shushi, "$")
+      print("your total bill is:", Cheese_sausage+Caviar_shushi, "$")
     else:
       print("I don't understand, can you order again please?")
   else:
@@ -37,11 +37,11 @@ elif food == "Instant_noodle":
     print("Please choose one more dish: ")
     Food = input()
     if Food == "Cheese_sausage":
-      print("Your total bill is: ", Cheese_sausage*Instant_noodle,"$")
+      print("Your total bill is: ", Cheese_sausage+Instant_noodle,"$")
     elif Food == "Spaghetti":
-      print("your total bill is:", Instant_noodle*Spaghetti, "$")
+      print("your total bill is:", Instant_noodle+Spaghetti, "$")
     elif Food == "Caviar_shushi":
-      print("your total bill is:", Instant_noodle*Caviar_shushi, "$")
+      print("your total bill is:", Instant_noodle+Caviar_shushi, "$")
     else:
       print("I don't understand, can you order again please?")
   else:
@@ -55,11 +55,11 @@ elif food == "Spaghetti":
     print("Please choose one more dish: ")
     Food = input()
     if Food == "Instant_noodle":
-      print("Your total bill is: ", Spaghetti*Instant_noodle,"$")
+      print("Your total bill is: ", Spaghetti+Instant_noodle,"$")
     elif Food == "Cheese_sausage":
-      print("your total bill is:", Cheese_sausage*Spaghetti, "$")
+      print("your total bill is:", Cheese_sausage+Spaghetti, "$")
     elif Food == "Caviar_shushi":
-      print("your total bill is:", Spaghetti*Caviar_shushi, "$")
+      print("your total bill is:", Spaghetti+Caviar_shushi, "$")
     else:
       print("I don't understand, can you order again please?")
   else:
@@ -73,11 +73,11 @@ elif food == "Caviar_shushi":
     print("Please choose one more dish: ")
     Food = input()
     if Food == "Instant_noodle":
-      print("Your total bill is: ", Caviar_shushi*Instant_noodle,"$")
+      print("Your total bill is: ", Caviar_shushi+Instant_noodle,"$")
     elif Food == "Spaghetti":
-      print("your total bill is:", Caviar_shushi*Spaghetti, "$")
+      print("your total bill is:", Caviar_shushi+Spaghetti, "$")
     elif Food == "Cheese_sausage":
-      print("your total bill is:", Cheese_sausage*Caviar_shushi, "$")
+      print("your total bill is:", Cheese_sausage+Caviar_shushi, "$")
     else:
       print("I don't understand, can you order again please?")
   else:
